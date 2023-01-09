@@ -6,6 +6,7 @@ body {
 .navbar {
     display: flex;
     height: 55px;
+    width: 100%;
     background-color: #F55A5A;
     align-items: center;
     justify-content: center;
@@ -13,4 +14,75 @@ body {
     font-size: 15px;
     font-weight: 400;
     color: white;
+}
+
+.navbar--icon {
+    width: 30px;
+    filter: invert(100%);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 50px 0px 50px;
+    margin-top: 30px;
+    height: 250px;
+}
+
+.card--body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card--title {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card--location {
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.card--location--text {
+    letter-spacing: 3px;
+}
+
+.card--location--link {
+    color: #918E9B;
+}
+
+.card--icon {
+    width: 10px;
+}
+
+.card--photo {
+    border-radius: 5px;
+    display: block;
+    max-width:180px;
+    max-height:100%;
+    width: auto;
+    height: 95%;
+    object-fit: cover;
+
+}
+
+.card--dates {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.card--description {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    max-width: 350px;
 }
