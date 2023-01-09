@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: inter, sans-serif
+}
+
+.navbar {
+    display: flex;
+    height: 55px;
+    background-color: #F55A5A;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
